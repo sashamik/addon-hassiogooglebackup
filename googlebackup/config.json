@@ -1,7 +1,7 @@
 {
-    "name": "Backup Hassio to Google Drive",
+    "name": "Backup Hassio to Google Drive Extra",
     "version": "dev",
-    "slug": "googlebackup",
+    "slug": "googlebackupextra",
     "description": "Backup hass.io snapshots to Google Drive.",
     "arch": [
       "aarch64",
@@ -27,7 +27,7 @@
       "purge_google" : {"enabled" : "bool", "preserve" : "int(0,)"},
       "debug" : "bool"},
     "ports": {
-      "8000/tcp": 8055
+      "8000/tcp": 8056
     },
     "ports_description": {
       "8000/tcp": "Web UI and REST Services"
